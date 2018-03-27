@@ -8,7 +8,7 @@ EVR  (Work in progress, no solid defintion)
 
 
 
-#EVR API
+# EVR API
     
     var EVR = require( "evr" );
 
@@ -35,8 +35,8 @@ EVR  (Work in progress, no solid defintion)
 
 --EVR Instance
 
-##EVR Instance
-
+## EVR Instance
+   
     var evr = EVR();
 
     EVR Instance Methods
@@ -58,7 +58,7 @@ EVR  (Work in progress, no solid defintion)
         evr.objectMap 
             a map from node._ to node.
 
-##EVR Node/Link
+## EVR Node/Link
 
     EVR Node Methods / EVR Link Methods
         get  ( path, key )
@@ -123,7 +123,7 @@ EVR  (Work in progress, no solid defintion)
 
 
 
-##Driver Events
+## Driver Events
 
     init  (evr)
         Initialize driver for a graph.
